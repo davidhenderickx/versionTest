@@ -62,6 +62,16 @@ rxversion="8.0">
 			searchtimeout="30000ms">
 				/dom[@domain='testgames.be']//div[#'login']/table//span
 			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="e0f4f51a-51d3-4e1c-a3c2-d4e7fcd8ca86"
+			name="Language"
+			refimgid="f4c940ab-800f-43ce-9446-268fee965adb"
+			refpath="/dom[@domain='testgames.be' and @caption='Connection Manager' and @page='' and @path='/connections/' and @browsername='Chrome']//div[#'login']/select[@name='language']"
+			searchtimeout="30000ms">
+				/dom[@domain='testgames.be']//div[#'login']/select[@name='language']
+			</item>
 			<basepath>
 				/dom[@domain='testgames.be']
 			</basepath>

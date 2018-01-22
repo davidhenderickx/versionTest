@@ -113,6 +113,18 @@
     <Compile Include="AssemblyInfo.cs">
       <id>4955e0d3-5f29-448b-a0ef-19eb84ba2bd3</id>
     </Compile>
+    <Compile Include="Module2.cs">
+      <BoundTo>7f3052ef-215f-4be7-b0f1-ce97ca2cdb68</BoundTo>
+      <DependentUpon>Module2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2cefb538-87f7-4859-9a20-c3f5614b06dc</id>
+    </Compile>
+    <Compile Include="Module2.UserCode.cs">
+      <BoundTo>7f3052ef-215f-4be7-b0f1-ce97ca2cdb68</BoundTo>
+      <DependentUpon>Module2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f233b97f-78d4-47da-a0c6-708cea47e882</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>334b8ad9-d330-4d9f-89a5-11d491ca0b29</id>
     </Compile>
@@ -138,6 +150,11 @@
   <ItemGroup>
     <None Include="app.config">
       <id>24db365c-5cb2-455f-b45e-2cd4249eab87</id>
+    </None>
+    <None Include="Module2.rxrec">
+      <BoundTo>2454fc2b-92b6-431b-94b8-da854009392e</BoundTo>
+      <id>7f3052ef-215f-4be7-b0f1-ce97ca2cdb68</id>
+      <recordtableid>7959983d-f364-42b4-8d7e-5baa4f13ffe5</recordtableid>
     </None>
     <None Include="Recording1.rxrec">
       <BoundTo>2454fc2b-92b6-431b-94b8-da854009392e</BoundTo>

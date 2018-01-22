@@ -89,6 +89,7 @@ namespace VersionTest
             RepoItemInfo _usernameInfo;
             RepoItemInfo _passwordInfo;
             RepoItemInfo _contentInfo;
+            RepoItemInfo _languageInfo;
 
             /// <summary>
             /// Creates a new ConnectionManager  folder.
@@ -100,6 +101,7 @@ namespace VersionTest
                 _usernameInfo = new RepoItemInfo(this, "Username", ".//input[#'username']", 30000, null, "af855205-844d-4fdc-b5c2-3937b53be850");
                 _passwordInfo = new RepoItemInfo(this, "Password", ".//input[#'password']", 30000, null, "ec8a5efc-a715-4926-9f99-d8030d4ae773");
                 _contentInfo = new RepoItemInfo(this, "Content", ".//div[#'login']/table//span", 30000, null, "c952dd20-4e20-41d8-b6a4-840994ab34e0");
+                _languageInfo = new RepoItemInfo(this, "Language", ".//div[#'login']/select[@name='language']", 30000, null, "e0f4f51a-51d3-4e1c-a3c2-d4e7fcd8ca86");
             }
 
             /// <summary>
@@ -219,6 +221,30 @@ namespace VersionTest
                 get
                 {
                     return _contentInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Language item.
+            /// </summary>
+            [RepositoryItem("e0f4f51a-51d3-4e1c-a3c2-d4e7fcd8ca86")]
+            public virtual Ranorex.SelectTag Language
+            {
+                get
+                {
+                    return _languageInfo.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Language item info.
+            /// </summary>
+            [RepositoryItemInfo("e0f4f51a-51d3-4e1c-a3c2-d4e7fcd8ca86")]
+            public virtual RepoItemInfo LanguageInfo
+            {
+                get
+                {
+                    return _languageInfo;
                 }
             }
         }
