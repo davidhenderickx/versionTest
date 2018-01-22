@@ -107,6 +107,9 @@ namespace VersionTest
             repo.ConnectionManager.Content.Click("10;4");
             Delay.Milliseconds(200);
             
+            // reer
+            Report.Log(ReportLevel.Info, "Section", "reer", new RecordItemIndex(7));
+            
         }
 
 #region Image Feature Data
