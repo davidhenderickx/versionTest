@@ -72,6 +72,26 @@ rxversion="8.0">
 			searchtimeout="30000ms">
 				/dom[@domain='testgames.be']//div[#'login']/select[@name='language']
 			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="89b4fa27-4344-4056-a758-b9ff2ea505ca"
+			name="LogIn"
+			refimgid="22ce16e5-b46d-40a7-8d83-bc4642b87871"
+			refpath="/dom[14]//div[#'login']/table/tbody/tr[3]/td[@innertext~'^&lt;label>log\ in&lt;/label>']/span/label[@innertext='log in']"
+			searchtimeout="30000ms">
+				/dom[@domain='testgames.be']//div[#'login']/table//td[@innertext~'^&lt;label&gt;log\ in&lt;/label&gt;']/?/?/label[@innertext='log in']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="4261ff81-bc0b-4346-90b5-cd40e23a9484"
+			name="Stats"
+			refimgid="4726ac9d-e575-49ec-8556-651a82a28148"
+			refpath="/dom[14]//div[#'main-nav']/ul/li[4]/a[@innertext='Stats']"
+			searchtimeout="30000ms">
+				/dom[@domain='testgames.be']//div[#'main-nav']//a[@innertext='Stats']
+			</item>
 			<basepath>
 				/dom[@domain='testgames.be']
 			</basepath>
