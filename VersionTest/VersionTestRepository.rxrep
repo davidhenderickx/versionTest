@@ -1,0 +1,89 @@
+﻿<repository
+id="e55ff413-aae2-4cce-ae0f-0e0242926553"
+name="VersionTestRepository"
+rxversion="8.0">
+	<codegen
+	classname="VersionTestRepository"
+	namespace="VersionTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="4461e78c-0770-4a91-99fb-558c3ec87e6e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="152c635c-3b48-42d8-809c-738d5b92d20b"
+		isrooted="True"
+		name="ConnectionManager"
+		refpath="/dom[@domain='testgames.be']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="9c20ab7a-b8db-443e-b51f-8037bbdfdf81"
+			name="Logout"
+			refimgid="1231c74f-43fe-4eac-a2e2-bbed62929d4c"
+			refpath="/dom[@domain='testgames.be']//a[#'logout']"
+			searchtimeout="30000ms">
+				/dom[@domain='testgames.be']//a[#'logout']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="af855205-844d-4fdc-b5c2-3937b53be850"
+			name="Username"
+			refimgid="91234d9b-4247-4e31-9a21-b566ad9d13ec"
+			refpath="/dom[@domain='testgames.be']//input[#'username']"
+			searchtimeout="30000ms">
+				/dom[@domain='testgames.be']//input[#'username']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="ec8a5efc-a715-4926-9f99-d8030d4ae773"
+			name="Password"
+			refimgid="815a595f-44aa-47ea-9389-2204771f357c"
+			refpath="/dom[@domain='testgames.be']//input[#'password']"
+			searchtimeout="30000ms">
+				/dom[@domain='testgames.be']//input[#'password']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="c952dd20-4e20-41d8-b6a4-840994ab34e0"
+			name="Content"
+			refimgid="f379ff25-443e-463f-b075-2f98de6a44d9"
+			refpath="/dom[@domain='testgames.be']//div[#'login']/table/tbody/tr[3]/td[@innertext~'^&lt;label>log\ in&lt;/l']/span"
+			searchtimeout="30000ms">
+				/dom[@domain='testgames.be']//div[#'login']/table//span
+			</item>
+			<basepath>
+				/dom[@domain='testgames.be']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
