@@ -90,6 +90,7 @@ namespace VersionTest
             RepoItemInfo _passwordInfo;
             RepoItemInfo _contentInfo;
             RepoItemInfo _languageInfo;
+            RepoItemInfo _buttonInfo;
             RepoItemInfo _loginInfo;
             RepoItemInfo _statsInfo;
 
@@ -104,6 +105,8 @@ namespace VersionTest
                 _passwordInfo = new RepoItemInfo(this, "Password", ".//input[#'password']", 30000, null, "ec8a5efc-a715-4926-9f99-d8030d4ae773");
                 _contentInfo = new RepoItemInfo(this, "Content", ".//div[#'login']/table//span", 30000, null, "c952dd20-4e20-41d8-b6a4-840994ab34e0");
                 _languageInfo = new RepoItemInfo(this, "Language", ".//div[#'login']/select[@name='language']", 30000, null, "e0f4f51a-51d3-4e1c-a3c2-d4e7fcd8ca86");
+
+                _buttonInfo = new RepoItemInfo(this, "Button", ".//div[#'welcome']/?/?/input[@type='button']", 30000, null, "a1ecf1fd-c420-4c64-9099-91a5ddad9eca");
                 _loginInfo = new RepoItemInfo(this, "LogIn", ".//div[#'login']/table//td[@innertext~'^<label>log\\ in</label>']/?/?/label[@innertext='log in']", 30000, null, "89b4fa27-4344-4056-a758-b9ff2ea505ca");
                 _statsInfo = new RepoItemInfo(this, "Stats", ".//div[#'main-nav']//a[@innertext='Stats']", 30000, null, "4261ff81-bc0b-4346-90b5-cd40e23a9484");
             }
@@ -249,6 +252,30 @@ namespace VersionTest
                 get
                 {
                     return _languageInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Button item.
+            /// </summary>
+            [RepositoryItem("a1ecf1fd-c420-4c64-9099-91a5ddad9eca")]
+            public virtual Ranorex.InputTag Button
+            {
+                get
+                {
+                    return _buttonInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Button item info.
+            /// </summary>
+            [RepositoryItemInfo("a1ecf1fd-c420-4c64-9099-91a5ddad9eca")]
+            public virtual RepoItemInfo ButtonInfo
+            {
+                get
+                {
+                    return _buttonInfo;
                 }
             }
 

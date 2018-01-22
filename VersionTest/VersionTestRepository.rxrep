@@ -25,6 +25,36 @@ rxversion="8.0">
 			<item
 			addcaps="unknown,webelement,atag"
 			capname="atag"
+			id="4261ff81-bc0b-4346-90b5-cd40e23a9484"
+			name="Stats"
+			refimgid="4726ac9d-e575-49ec-8556-651a82a28148"
+			refpath="/dom[14]//div[#'main-nav']/ul/li[4]/a[@innertext='Stats']"
+			searchtimeout="30000ms">
+				/dom[@domain='testgames.be']//div[#'main-nav']//a[@innertext='Stats']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="89b4fa27-4344-4056-a758-b9ff2ea505ca"
+			name="LogIn"
+			refimgid="22ce16e5-b46d-40a7-8d83-bc4642b87871"
+			refpath="/dom[14]//div[#'login']/table/tbody/tr[3]/td[@innertext~'^&lt;label&gt;log\ in&lt;/label&gt;']/span/label[@innertext='log in']"
+			searchtimeout="30000ms">
+				/dom[@domain='testgames.be']//div[#'login']/table//td[@innertext~'^&amp;lt;label&amp;gt;log\ in&amp;lt;/label&amp;gt;']/?/?/label[@innertext='log in']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="a1ecf1fd-c420-4c64-9099-91a5ddad9eca"
+			name="Button"
+			refimgid="fcd7b400-1140-4fc5-9642-8855b0563217"
+			refpath="/dom[13]//div[#'welcome']/p[@innertext~'^Also,\ click\ here\ for\ a\ pi']/input[@type='button']"
+			searchtimeout="30000ms">
+				/dom[@domain='testgames.be']//div[#'welcome']/?/?/input[@type='button']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
 			id="9c20ab7a-b8db-443e-b51f-8037bbdfdf81"
 			name="Logout"
 			refimgid="1231c74f-43fe-4eac-a2e2-bbed62929d4c"
@@ -58,7 +88,7 @@ rxversion="8.0">
 			id="c952dd20-4e20-41d8-b6a4-840994ab34e0"
 			name="Content"
 			refimgid="f379ff25-443e-463f-b075-2f98de6a44d9"
-			refpath="/dom[@domain='testgames.be']//div[#'login']/table/tbody/tr[3]/td[@innertext~'^&lt;label>log\ in&lt;/l']/span"
+			refpath="/dom[@domain='testgames.be']//div[#'login']/table/tbody/tr[3]/td[@innertext~'^&lt;label&gt;log\ in&lt;/l']/span"
 			searchtimeout="30000ms">
 				/dom[@domain='testgames.be']//div[#'login']/table//span
 			</item>
@@ -71,26 +101,6 @@ rxversion="8.0">
 			refpath="/dom[@domain='testgames.be' and @caption='Connection Manager' and @page='' and @path='/connections/' and @browsername='Chrome']//div[#'login']/select[@name='language']"
 			searchtimeout="30000ms">
 				/dom[@domain='testgames.be']//div[#'login']/select[@name='language']
-			</item>
-			<item
-			addcaps="unknown,webelement,labeltag"
-			capname="labeltag"
-			id="89b4fa27-4344-4056-a758-b9ff2ea505ca"
-			name="LogIn"
-			refimgid="22ce16e5-b46d-40a7-8d83-bc4642b87871"
-			refpath="/dom[14]//div[#'login']/table/tbody/tr[3]/td[@innertext~'^&lt;label>log\ in&lt;/label>']/span/label[@innertext='log in']"
-			searchtimeout="30000ms">
-				/dom[@domain='testgames.be']//div[#'login']/table//td[@innertext~'^&lt;label&gt;log\ in&lt;/label&gt;']/?/?/label[@innertext='log in']
-			</item>
-			<item
-			addcaps="unknown,webelement,atag"
-			capname="atag"
-			id="4261ff81-bc0b-4346-90b5-cd40e23a9484"
-			name="Stats"
-			refimgid="4726ac9d-e575-49ec-8556-651a82a28148"
-			refpath="/dom[14]//div[#'main-nav']/ul/li[4]/a[@innertext='Stats']"
-			searchtimeout="30000ms">
-				/dom[@domain='testgames.be']//div[#'main-nav']//a[@innertext='Stats']
 			</item>
 			<basepath>
 				/dom[@domain='testgames.be']
