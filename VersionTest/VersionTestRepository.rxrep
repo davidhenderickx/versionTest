@@ -72,6 +72,16 @@ rxversion="8.0">
 			searchtimeout="30000ms">
 				/dom[@domain='testgames.be']//div[#'login']/select[@name='language']
 			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="a1ecf1fd-c420-4c64-9099-91a5ddad9eca"
+			name="Button"
+			refimgid="fcd7b400-1140-4fc5-9642-8855b0563217"
+			refpath="/dom[13]//div[#'welcome']/p[@innertext~'^Also,\ click\ here\ for\ a\ pi']/input[@type='button']"
+			searchtimeout="30000ms">
+				/dom[@domain='testgames.be']//div[#'welcome']/?/?/input[@type='button']
+			</item>
 			<basepath>
 				/dom[@domain='testgames.be']
 			</basepath>

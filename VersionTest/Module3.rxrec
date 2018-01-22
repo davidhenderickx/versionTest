@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7d4d9c97-a5a7-4796-9387-2104c5eb9c49"
+mode="Desktop"
+rxversion="8.0">
+	<name>
+		Module3
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Module3"
+	namespace="VersionTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				http://testgames.be/connections/
+			</url>
+		</openwebsiterecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="29;10"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="182bda7d-8b0d-473c-a401-b7de7d4459f1"
+		sx="1017"
+		sy="492"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a1ecf1fd-c420-4c64-9099-91a5ddad9eca"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="988,482,55,17"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Show me
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Show me
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onclick"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='testgames.be']//div[#'welcome']/?/?/input[@type='button']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="243fd00b-5067-4862-928d-0a997e9c422f">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAC0ALQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAYZUXJZ0VRjktR58Qj8wypsP8W4Y/
+Oq62rhUBK/KU/wDHaJUaEiUKGO8kLgnqPYGgC0HUpvDArjOQeKas0TglZUbb1wwOKiiRl08Iynd5
+fT3xUa28rx5YIjCMKqgk9OeeKALTSxpnfIq44OTjFIJ4SwUSoWPQbhk1AIJWlEkmwfvA+ASeAuPS
+m+VI80q7VVDKrbiTngDoMe3rQBaEsZcoJFLryVzyKaLiExmQTRlBwW3DA/GoDbSEbCI9iliDk5bO
+eD+frTWtZmQbiPlYFV8w9MEfeAB70AWjPEoUmVBv+7lh830p9UzbSgL5YRDjBPmE45J7j5vxxVmN
+nYvuAADYXjtQAoljMhjEilx1XPI/CiORJRmN1cA4ypzVY20rNIuVSNw2cEtknvgjj8DUsMcgkaSQ
+KpKhdqHI4zz0HrQA1ryIB9rAlHCsNw4yQM/rUvnxeX5nmps/vbhj86haCQ71+Ta0iuDnnqMjGPak
+mtXcllIz5m8DcVz8uOo6UAWGkAiMi4YBdwwetNE8e5UMiB2GQu4ZpEiItTHgKSCMbievueagktpn
+kX5gVUoR85GMHnjofxo6gWw6nGGB3dOetNWaJwSsiMAcEhgefSoFgLSTZJCchOOhPU/596Q28rAk
+iNWAUKFJwcHPPHFAE0tzFCVDuoy23qODjPNPd0jXc7qq+pOBVbyJsmQiPf5u8LuOPu4xnH9KnmjM
+nl4x8rhjmgBVnidgqSoxIyAGByKFnhfO2VGwcHDA4qFbdlKHK8Ss5+hz/iKjjtZAXac5BjKkh2Yk
++oHb6CgC2ZI1OGdQfQmimWyMsQMnMj/M31op6C1I0uTIF3KobcBhXORx34B/Co0u5Vt4zJGGdycb
+ST09cD+lWUt405AJOc5ZiT+ZpDaxbcYYDO4YcjB9uePwpDBpc2jSlGHyElTkHp+lNFwftPlFAo6A
+s2C3GeBjn86l8tfKMZBKkYIJPT603yI/M8zBznP3jjP06UAI8ridYkQNldxJbGBn6VGs7sFEUQY7
+dx3P0/HHNWNi+Zvx82MZ9qja2iYKNpG0YGGI49PegCKCaQPtdcq0rqG3c9Senpx61LPOYjjYWypI
+56njA/WnCJBjC9GLDnuc5/maV40cqWXJQ5X2NAEAuRIUKrkFsA7sc7SeaijmuHS2YhSzA8b8A8dT
+xVpYI1ACrjDFh9Tn/E0JBHHt2g/LnGWJxmgBjzMbF5l+VthYd8HFMEssk0ce2SEMhOTtOTx061Y8
+pPKMWPkIxjPajYu9WxyoIB9v8igCmWnFu7i4ct5mwZVcD5sZ6Uv2mVpMj5V8tsgj+IYz/OrXkx7C
+m35S27Ge+c/zpXjRzlhk4K9ex60DIpDK1opizvIUnbjPbPXinWzbozlnJBIO8DIPpxxSC1iC7QZM
+f9dW4+nPFSRxrGm1Bx15Oc0CKj3crRMURUcMvylvmwTjkY4/Wp2uCiuWQZQLkBvWgWsIUjaxBGOX
+Jx9OePwoa1icgsGPAH3zzjpnnmgCrI07PJjvME/1rDj04HH1q3PKYYgQAxzgAk8/kCTTvJT+7/Fv
+696JIklADg8HIIJBH4igCD7YSsbCMAMMkuxUDnGM46/XFTyyeUFJHyk4J9KZ9khwBtbAGMbzg9+e
+efxqSSNJUKOoZT1FAFb+0IwBvGxj1UnkUVK9rA7l2jBY9TRRZdx38iaiiigQUUUUAFFFFABRRTJJ
+oosebIiZ6bmAzQNJvYfRUP2y1/5+Yf8AvsUfbLX/AJ+Yf++xSuh8kuxNRUP2y1/5+Yf++xR9stf+
+fmH/AL7FF0HJLsTUVD9stf8An5h/77FH2y1/5+Yf++xRdByS7E1FQ/bLX/n5h/77FSo6yKGRgyno
+QcincTi1uhaKKKBBRRRQAUUUUAFFFFABnBA559qR3WNSzHAFVQJl+VN5xvC7iT9Mk1Dy6zInnH92
+nD7s5yc8GgDRpizIzlV3Eg4J2nGfr0psCFHkXLlcjbuJPb1NQQxMm3HmDdM275j0+bH9KALhOBk5
+/AZoqmPPMb53gxjYOvzHPX8sfrShJPNL5lz5uAMnG3Hp0oAt1j6/gva5GRlv6VbhZvtSBjLvIbeG
+zt7Yx2/KqGsfcs/v9W/1n3uo61M9jfD/AMRfP8iSTT9NikEck+x26K0gBP4U5NKsnZ1VpCUO1ueh
+xn096WZmSeTyPN3uRmNoiyPwP4scfn+FHluLiaUeaG89cYJAIwoPHQ96aiuxPtqn8z+8X+x7T1k/
+76o/se09ZP8AvqmxCV5Cu6dXYMJSxbaPTb2/L8aia5nikjeZZdj/ADuAeYwuATj0JIJpcq7C9tU/
+mf3i3On2dugwJHkbhEDDLH8uB71WEEBOBGrkfeRLjLAfTbUt4rS3c82A0axpjYeXjzk4wfr6UjzN
+Haxs0jM89uSA7Fsv8uMD8e31quWPYn29R395/ePlsbMWvnQlnDK2CT6KT+eRV/R/+QZD/wAC/wDQ
+jWVasWhu8/32JAXjPlnPP9O1auj/APIMh/4F/wChGoslLQ255To3k+v6Mu0UUVZzhRRRQAUUUUAF
+FFFABTY4o4gRHGqA9QoxTqKACiiigAooooAYkUaMWSNFZupAwTWbrcUkj2xSF5QpJYID7Vq0Umrq
+xdOfJLmMX7Vd/wDPpd/p/wDEUfarv/n0u/0/+IraopWfc09pT/k/FmL9qu/+fS7/AE/+Ip9lJLLq
+SiaGWPEL48zvynTgVr1UvYLmSaN7V40IRkLPnKgleQO5+U00n3JlODVlG33mdqEEtmfPtWYRrk7B
+0TJGTjuOOn4+tVgLvdkafsJ+8yRncfXHHFWorVv7SjS4hM+wtEXljLhkxuVs4xkHj8TW3Td+jMYx
+gvijc59DNHbeSlldFQrAbjnBIOT933NaulI0enRK6lWGcgjB6mrdFSlrds3lUTjyxjYKKKKoxCii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKAP/Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="e55ff413-aae2-4cce-ae0f-0e0242926553"
+	name="VersionTestRepository"
+	relativepath="VersionTestRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="VersionTestRepository"
+		namespace="VersionTest">
+		</codegen>
+		<rootfolder
+		id="4461e78c-0770-4a91-99fb-558c3ec87e6e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Module3.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
